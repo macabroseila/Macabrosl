@@ -1,0 +1,547 @@
+.gallery a {
+  color: yellow;
+}
+.original-box-shadow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+  background-color: #dddddd;
+  font-size: 30px;
+  width: 250px;
+  height: 100px;
+  border-radius: 3px;
+  box-shadow: 6px 6px 6px 0px rgba(64, 85, 79, 1);
+}
+/* Estilos CSS no arquivo stylesheet.css */
+
+/* Estilos globais */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #15202B; /* Azul escuro do Twitter */
+  color: #ffffff; /* Texto branco */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #8899A6; /* Cinza claro do Twitter */
+}
+
+.navigation {
+  display: flex;
+  margin-top: 10px;
+}
+
+.navigation a {
+  margin-right: 10px;
+  color: #ffffff; /* Texto branco */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.cta-button {
+  background-color: #1DA1F2; /* Azul do Twitter */
+  border: none;
+  color: #ffffff; /* Texto branco */
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 14px;
+}
+
+.cta-button:hover {
+  background-color: #ffffff; /* Fundo branco */
+  color: #1DA1F2; /* Texto azul do Twitter */
+}
+
+/* Estilos para a navegação */
+.social-links {
+  background-color: #15202B; /* Azul escuro do Twitter */
+  padding: 10px;
+}
+
+.social-links a {
+  color: #ffffff; /* Texto branco */
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+/* Estilos para a galeria de imagens */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #15202B; /* Azul escuro do Twitter */
+  color: #ffffff; /* Texto branco */
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+.tweet-image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+}
+.navigation a {
+  color: #1DA1F2; /* Texto azul do Twitter */
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+.edit-profile-button {
+  background-color: transparent;
+  border: 2px solid #1DA1F2; /* Azul do Twitter */
+  color: #1DA1F2; /* Texto azul do Twitter */
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 14px;
+}
+
+.edit-profile-button:hover {
+  background-color: #1DA1F2; /* Azul do Twitter */
+  color: #ffffff; /* Texto branco */
+}
+<nav class="navigation">
+  <i class="fas fa-bars"></i>
+  <a href="#">Tweets</a>
+  <a href="#">Seguindo</a>
+  <a href="#">Seguidores</a>
+</nav>
+.follow-button {
+  background-color: #1DA1F2; /* Azul do Twitter */
+  border: none;
+  color: #ffffff; /* Texto branco */
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.follow-button {
+  background-color: #1DA1F2; /* Azul do Twitter */
+  border: none;
+  color: #ffffff; /* Texto branco */
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.follow-button:hover {
+  background-color: #ffffff; /* Fundo branco */
+  color: #1DA1F2; /* Texto azul do Twitter */
+}
+footer {
+  background-color: #f5f8fa; /* Fundo cinza claro do Twitter */
+  color: #8899a6; /* Texto cinza claro do Twitter */
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+.gallery {
+  margin-top: 10px;
+}
+
+.gallery p {
+  margin: 0;
+  color: #667580; /* Texto cinza do Twitter */
+  font-size: 14px;
+  margin-top: 5px;
+}
+.like-icon {
+  color: #e0245e; /* Vermelho do Twitter */
+  margin-right: 5px;
+}
+.navigation a {
+  color: #1DA1F2; /* Texto azul do Twitter */
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.navigation a.active {
+  color: #ffffff; /* Texto branco */
+  background-color: #1DA1F2; /* Azul do Twitter */
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+.trending-topics {
+  background-color: #f5f8fa; /* Fundo cinza claro do Twitter */
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.trending-topics h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.trending-topics ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.trending-topics li {
+  margin-bottom: 5px;
+}
+
+.trending-topics li a {
+  color: #1DA1F2; /* Texto azul do Twitter */
+  text-decoration: none;
+}
+
+.trending-topics li a:hover {
+  text-decoration: underline;
+}
+.tweets {
+  margin-top: 10px;
+}
+
+.tweets .tweet {
+  background-color: #ffffff; /* Fundo branco */
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.tweets .tweet .author {
+  display: flex;
+  align-items: center;
+}
+
+.tweets .tweet .author img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tweets .tweet .author h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tweets .tweet .content {
+  margin-top: 10px;
+}
+
+.tweets .tweet .content p {
+  margin: 0;
+  font-size: 14px;
+  color: #14171A; /* Texto preto do Twitter */
+}
+
+.tweets .tweet .actions {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.tweets .tweet .actions a {
+  margin-right: 10px;
+  color: #657786; /* Cinza do Twitter */
+  text-decoration: none;
+}
+
+.tweets .tweet .actions a:hover {
+  color: #1DA1F2; /* Texto azul do Twitter */
+  text-decoration: underline;
+}
+.follow-suggestions {
+  margin-top: 10px;
+}
+
+.follow-suggestions h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.follow-suggestions .user {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.follow-suggestions .user img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.follow-suggestions .user h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.follow-suggestions .user p {
+  margin: 0;
+  font-size: 14px;
+  color: #657786; /* Cinza do Twitter */
+}
+
+.follow-suggestions .user .follow-button {
+  background-color: #1DA1F2; /* Azul do Twitter */
+  border: none;
+  color: #ffffff; /* Texto branco */
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.follow-suggestions .user .follow-button:hover {
+  background-color: #ffffff; /* Fundo branco */
+  color: #1DA1F2; /* Texto azul do Twitter */
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tweet {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.tweet img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+header {
+  background-color: #14171A;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #ffffff;
+  color: #ff0000;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-container {
+  display: flex;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+.slide-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.slide-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.slide-indicator.active {
+  background-color: #000;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+.scroll-container {
+  width: 300px; /* Largura do container */
+  height: 200px; /* Altura do container */
+  overflow: auto; /* Habilita a barra de rolagem */
+}
+
+/* Estilize a barra de rolagem */
+.scroll-container::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Cor do preenchimento da barra de rolagem */
+  border-radius: 4px; /* Raio de borda da barra de rolagem */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Cor do fundo da barra de rolagem */
+}
+.css-flame-text {
+    background-image: linear-gradient(0deg, #f00 25%, #ffb300 60%);
+    color: #0000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+}
+.scroll-container {
+  width: 300px; /* Largura do container */
+  height: 200px; /* Altura do container */
+  overflow: auto; /* Habilita a barra de rolagem */
+}
+
+/* Estilize a barra de rolagem */
+.scroll-container::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Cor do preenchimento da barra de rolagem */
+  border-radius: 4px; /* Raio de borda da barra de rolagem */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Cor do fundo da barra de rolagem */
+}
+.p {
+  font-family: Fantasy;
+}
